@@ -1,0 +1,6 @@
+django
+djangorestframework
+django-environ
+dj-database-url
+pre-commit
+psycopg2

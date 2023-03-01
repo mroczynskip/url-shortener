@@ -1,0 +1,14 @@
+[tool.black]
+line-length = 120
+target-version = ['py311']
+include = '\.pyi?$'
+force-exclude = '''
+/(
+  | migrations
+)/
+'''
+
+[tool.isort]
+known_third_party='django, rest_framework'
+known_first_party='url_shortener'
+skip='migrations,.venv'
